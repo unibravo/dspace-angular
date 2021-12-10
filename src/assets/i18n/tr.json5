@@ -649,6 +649,7 @@
   "browse.metadata.title": "Başlık",
 
 
+
   "browse.metadata.author.breadcrumbs": "Yazara Gözat",
 
   "browse.metadata.dateissued.breadcrumbs": "Tarihe göre",
@@ -3017,9 +3018,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title.prefix": "Marmara Repository :: ",
+  "repository.title.prefix": "OpenAccess Repository :: ",
 
-  "repository.title.prefixDSpace": "Marmara Repository ::",
+  "repository.title.prefixDSpace": "OpenAccess Repository ::",
 
 
   "resource-policies.add.button": "Ekle",
