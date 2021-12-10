@@ -1,26 +1,26 @@
 {
 
-  "401.help": "You're not authorized to access this page. You can use the button below to get back to the home page.",
+  "401.help": "Bu sayfaya erişim yetkiniz yok. Ana sayfaya geri dönmek için aşağıdaki butonu kullanabilirsiniz.",
 
-  "401.link.home-page": "Take me to the home page",
+  "401.link.home-page": "Beni ana sayfaya götür",
 
-  "401.unauthorized": "unauthorized",
-
-
-
-  "403.help": "You don't have permission to access this page. You can use the button below to get back to the home page.",
-
-  "403.link.home-page": "Take me to the home page",
-
-  "403.forbidden": "forbidden",
+  "401.unauthorized": "yetkisiz",
 
 
 
-  "404.help": "We can't find the page you're looking for. The page may have been moved or deleted. You can use the button below to get back to the home page. ",
+  "403.help": "Bu sayfaya erişim izniniz yok. Ana sayfaya geri dönmek için aşağıdaki butonu kullanabilirsiniz.",
 
-  "404.link.home-page": "Take me to the home page",
+  "403.link.home-page": "Beni ana sayfaya götür",
 
-  "404.page-not-found": "page not found",
+  "403.forbidden": "yasaklanmış",
+
+
+
+  "404.help": "Aradığınız sayfayı bulamıyoruz. Sayfa taşınmış veya silinmiş olabilir. Ana sayfaya geri dönmek için aşağıdaki butonu kullanabilirsiniz. ",
+
+  "404.link.home-page": "Beni ana sayfaya götür",
+
+  "404.page-not-found": "sayfa bulunamadı",
 
   "admin.curation-tasks.breadcrumbs": "Sistem iyileştirme görevleri",
 
@@ -36,9 +36,9 @@
 
   "admin.registries.bitstream-formats.create.failure.head": "Başarısız",
 
-  "admin.registries.bitstream-formats.create.head": "Create Bitstream format",
+  "admin.registries.bitstream-formats.create.head": "Bitstream formatı oluştur",
 
-  "admin.registries.bitstream-formats.create.new": "Add a new bitstream format",
+  "admin.registries.bitstream-formats.create.new": "Yeni bir bitstream formatı ekle",
 
   "admin.registries.bitstream-formats.create.success.content": "The new bitstream format was successfully created.",
 
@@ -50,7 +50,7 @@
 
   "admin.registries.bitstream-formats.delete.success.amount": "Successfully removed {{ amount }} format(s)",
 
-  "admin.registries.bitstream-formats.delete.success.head": "Success",
+  "admin.registries.bitstream-formats.delete.success.head": "Başarılı",
 
   "admin.registries.bitstream-formats.description": "This list of bitstream formats provides information about known formats and their support level.",
 
@@ -78,7 +78,7 @@
 
   "admin.registries.bitstream-formats.edit.mimetype.hint": "The MIME type associated with this format, does not have to be unique.",
 
-  "admin.registries.bitstream-formats.edit.mimetype.label": "MIME Type",
+  "admin.registries.bitstream-formats.edit.mimetype.label": "MIME Tipi",
 
   "admin.registries.bitstream-formats.edit.shortDescription.hint": "A unique name for this format, (e.g. Microsoft Word XP or Microsoft Word 2000)",
 
@@ -90,15 +90,15 @@
 
   "admin.registries.bitstream-formats.edit.supportLevel.hint": "The level of support your institution pledges for this format.",
 
-  "admin.registries.bitstream-formats.edit.supportLevel.label": "Support level",
+  "admin.registries.bitstream-formats.edit.supportLevel.label": "Destek seviyesi",
 
-  "admin.registries.bitstream-formats.head": "Bitstream Format Registry",
+  "admin.registries.bitstream-formats.head": "Bitstream Format Kaydı",
 
   "admin.registries.bitstream-formats.no-items": "No bitstream formats to show.",
 
-  "admin.registries.bitstream-formats.table.delete": "Delete selected",
+  "admin.registries.bitstream-formats.table.delete": "Seçileni sil",
 
-  "admin.registries.bitstream-formats.table.deselect-all": "Deselect all",
+  "admin.registries.bitstream-formats.table.deselect-all": "Tüm seçimleri kaldır",
 
   "admin.registries.bitstream-formats.table.internal": "internal",
 
@@ -108,15 +108,15 @@
 
   "admin.registries.bitstream-formats.table.return": "Geri",
 
-  "admin.registries.bitstream-formats.table.supportLevel.KNOWN": "Known",
+  "admin.registries.bitstream-formats.table.supportLevel.KNOWN": "Biliniyor",
 
-  "admin.registries.bitstream-formats.table.supportLevel.SUPPORTED": "Supported",
+  "admin.registries.bitstream-formats.table.supportLevel.SUPPORTED": "Destekleniyor",
 
   "admin.registries.bitstream-formats.table.supportLevel.UNKNOWN": "Bilinmiyor",
 
-  "admin.registries.bitstream-formats.table.supportLevel.head": "Support Level",
+  "admin.registries.bitstream-formats.table.supportLevel.head": "Destek Seviyesi",
 
-  "admin.registries.bitstream-formats.title": "Bitstream Format Registry",
+  "admin.registries.bitstream-formats.title": "Bitstream Format Kaydı",
 
 
 
@@ -134,9 +134,9 @@
 
   "admin.registries.metadata.head": "Metadata Kaydı",
 
-  "admin.registries.metadata.schemas.no-items": "No metadata schemas to show.",
+  "admin.registries.metadata.schemas.no-items": "Gösterilecek meta veri şeması yok.",
 
-  "admin.registries.metadata.schemas.table.delete": "Seçileni sil",
+  "admin.registries.metadata.schemas.table.delete": "Seçileni Sil",
 
   "admin.registries.metadata.schemas.table.id": "ID",
 
@@ -154,13 +154,13 @@
 
   "admin.registries.schema.fields.head": "Şema metadata alanları",
 
-  "admin.registries.schema.fields.no-items": "No metadata fields to show.",
+  "admin.registries.schema.fields.no-items": "Gösterilecek meta veri alanı yok.",
 
   "admin.registries.schema.fields.table.delete": "Seçileni sil",
 
   "admin.registries.schema.fields.table.field": "Alan",
 
-  "admin.registries.schema.fields.table.scopenote": "Scope Note",
+  "admin.registries.schema.fields.table.scopenote": "Kapsam Notu",
 
   "admin.registries.schema.form.create": "Metadata alanı oluştur",
 
@@ -170,27 +170,27 @@
 
   "admin.registries.schema.form.qualifier": "Qualifier",
 
-  "admin.registries.schema.form.scopenote": "Scope Notu",
+  "admin.registries.schema.form.scopenote": "Kapsam Notu",
 
   "admin.registries.schema.head": "Metadata Şeması",
 
-  "admin.registries.schema.notification.created": "Successfully created metadata schema \"{{prefix}}\"",
+  "admin.registries.schema.notification.created": "Başarıyla oluşturuldu metadata schema \"{{prefix}}\"",
 
   "admin.registries.schema.notification.deleted.failure": "Failed to delete {{amount}} metadata schemas",
 
-  "admin.registries.schema.notification.deleted.success": "Successfully deleted {{amount}} metadata schemas",
+  "admin.registries.schema.notification.deleted.success": "Başarıyla silindi {{amount}} metadata schemas",
 
-  "admin.registries.schema.notification.edited": "Successfully edited metadata schema \"{{prefix}}\"",
+  "admin.registries.schema.notification.edited": "Başarıyla düzenlendi metadata schema \"{{prefix}}\"",
 
   "admin.registries.schema.notification.failure": "Hata",
 
-  "admin.registries.schema.notification.field.created": "Successfully created metadata field \"{{field}}\"",
+  "admin.registries.schema.notification.field.created": "Başarıyla oluşturuldu metadata field \"{{field}}\"",
 
   "admin.registries.schema.notification.field.deleted.failure": "Failed to delete {{amount}} metadata fields",
 
-  "admin.registries.schema.notification.field.deleted.success": "Successfully deleted {{amount}} metadata fields",
+  "admin.registries.schema.notification.field.deleted.success": "Başarıyla silindi {{amount}} metadata fields",
 
-  "admin.registries.schema.notification.field.edited": "Successfully edited metadata field \"{{field}}\"",
+  "admin.registries.schema.notification.field.edited": "Başarıyla düzenlendi metadata field \"{{field}}\"",
 
   "admin.registries.schema.notification.success": "Başarılı",
 
@@ -262,7 +262,7 @@
 
   "admin.access-control.epeople.form.return": "Geri",
 
-  "admin.access-control.epeople.form.notification.created.success": "Successfully created EPerson \"{{name}}\"",
+  "admin.access-control.epeople.form.notification.created.success": "Başarıyla oluşturuldu EPerson \"{{name}}\"",
 
   "admin.access-control.epeople.form.notification.created.failure": "Failed to create EPerson \"{{name}}\"",
 
@@ -270,11 +270,11 @@
 
   "admin.access-control.epeople.form.notification.edited.failure.emailInUse": "Failed to edit EPerson \"{{name}}\", email \"{{email}}\" already in use.",
 
-  "admin.access-control.epeople.form.notification.edited.success": "Successfully edited EPerson \"{{name}}\"",
+  "admin.access-control.epeople.form.notification.edited.success": "Başarıyla düzenlendi EPerson \"{{name}}\"",
 
   "admin.access-control.epeople.form.notification.edited.failure": "Failed to edit EPerson \"{{name}}\"",
 
-  "admin.access-control.epeople.form.notification.deleted.success": "Successfully deleted EPerson \"{{name}}\"",
+  "admin.access-control.epeople.form.notification.deleted.success": "Başarıyla silindi EPerson \"{{name}}\"",
 
   "admin.access-control.epeople.form.notification.deleted.failure": "Failed to delete EPerson \"{{name}}\"",
 
@@ -292,7 +292,7 @@
 
   "admin.access-control.epeople.notification.deleted.failure": "Failed to delete EPerson: \"{{name}}\"",
 
-  "admin.access-control.epeople.notification.deleted.success": "Successfully deleted EPerson: \"{{name}}\"",
+  "admin.access-control.epeople.notification.deleted.success": "Başarıyla silindi EPerson: \"{{name}}\"",
 
 
 
@@ -336,7 +336,7 @@
 
   "admin.access-control.groups.no-items": "No groups found with this in their name or this as UUID",
 
-  "admin.access-control.groups.notification.deleted.success": "Successfully deleted group \"{{name}}\"",
+  "admin.access-control.groups.notification.deleted.success": "Başarıyla silindi group \"{{name}}\"",
 
   "admin.access-control.groups.notification.deleted.failure.title": "Failed to delete group \"{{name}}\"",
 
@@ -358,7 +358,7 @@
 
   "admin.access-control.groups.form.groupDescription": "Açıklama",
 
-  "admin.access-control.groups.form.notification.created.success": "Successfully created Group \"{{name}}\"",
+  "admin.access-control.groups.form.notification.created.success": "Başarıyla oluşturuldu Group \"{{name}}\"",
 
   "admin.access-control.groups.form.notification.created.failure": "Failed to create Group \"{{name}}\"",
 
@@ -368,7 +368,7 @@
 
   "admin.access-control.groups.form.notification.edited.failure.groupNameInUse": "Name \"{{name}}\" already in use!",
 
-  "admin.access-control.groups.form.notification.edited.success": "Successfully edited Group \"{{name}}\"",
+  "admin.access-control.groups.form.notification.edited.success": "Başarıyla düzenlendi Group \"{{name}}\"",
 
   "admin.access-control.groups.form.actions.delete": "Grup Sil",
 
@@ -380,7 +380,7 @@
 
   "admin.access-control.groups.form.delete-group.modal.confirm": "Sil",
 
-  "admin.access-control.groups.form.notification.deleted.success": "Successfully deleted group \"{{ name }}\"",
+  "admin.access-control.groups.form.notification.deleted.success": "Başarıyla silindi group \"{{ name }}\"",
 
   "admin.access-control.groups.form.notification.deleted.failure.title": "Failed to delete group \"{{ name }}\"",
 
@@ -404,7 +404,7 @@
 
   "admin.access-control.groups.form.members-list.table.name": "Adı",
 
-  "admin.access-control.groups.form.members-list.table.identity": "Identity",
+  "admin.access-control.groups.form.members-list.table.identity": "Kimlik",
 
   "admin.access-control.groups.form.members-list.table.email": "Email",
 
@@ -418,7 +418,7 @@
 
   "admin.access-control.groups.form.members-list.notification.failure.addMember": "Failed to add member: \"{{name}}\"",
 
-  "admin.access-control.groups.form.members-list.notification.success.deleteMember": "Successfully deleted member: \"{{name}}\"",
+  "admin.access-control.groups.form.members-list.notification.success.deleteMember": "Başarıyla silindi member: \"{{name}}\"",
 
   "admin.access-control.groups.form.members-list.notification.failure.deleteMember": "Failed to delete member: \"{{name}}\"",
 
@@ -460,7 +460,7 @@
 
   "admin.access-control.groups.form.subgroups-list.notification.failure.addSubgroup": "Failed to add subgroup: \"{{name}}\"",
 
-  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Successfully deleted subgroup: \"{{name}}\"",
+  "admin.access-control.groups.form.subgroups-list.notification.success.deleteSubgroup": "Başarıyla silindi subgroup: \"{{name}}\"",
 
   "admin.access-control.groups.form.subgroups-list.notification.failure.deleteSubgroup": "Failed to delete subgroup: \"{{name}}\"",
 
@@ -470,7 +470,7 @@
 
   "admin.access-control.groups.form.subgroups-list.no-items": "No groups found with this in their name or this as UUID",
 
-  "admin.access-control.groups.form.subgroups-list.no-subgroups-yet": "No subgroups in group yet.",
+  "admin.access-control.groups.form.subgroups-list.no-subgroups-yet": "Henüz grupta alt grup yok.",
 
   "admin.access-control.groups.form.return": "Geri",
 
@@ -492,7 +492,7 @@
 
   "admin.search.item.move": "Taşı",
 
-  "admin.search.item.reinstate": "Reinstate",
+  "admin.search.item.reinstate": "Eski durumuna getir",
 
   "admin.search.item.withdraw": "Geri çek",
 
@@ -521,11 +521,11 @@
 
   "admin.metadata-import.page.header": "Import Metadata",
 
-  "admin.metadata-import.page.help": "You can drop or browse CSV files that contain batch metadata operations on files here",
+  "admin.metadata-import.page.help": "Dosyalarda toplu meta veri işlemleri içeren CSV dosyalarını buraya bırakabilir veya bunlara göz atabilirsiniz.",
 
-  "admin.metadata-import.page.dropMsg": "Drop a metadata CSV to import",
+  "admin.metadata-import.page.dropMsg": "İçe aktarmak için bir meta veri CSV'si bırakın",
 
-  "admin.metadata-import.page.dropMsgReplace": "Drop to replace the metadata CSV to import",
+  "admin.metadata-import.page.dropMsgReplace": "İçe aktarılacak CSV meta verilerini değiştirmek için bırakın",
 
   "admin.metadata-import.page.button.return": "Geri",
 
@@ -536,21 +536,21 @@
 
 
 
-  "auth.errors.invalid-user": "Invalid email address or password.",
+  "auth.errors.invalid-user": "Geçersiz e-posta adresi veya şifre.",
 
-  "auth.messages.expired": "Your session has expired. Please log in again.",
+  "auth.messages.expired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
 
-  "auth.messages.token-refresh-failed": "Refreshing your session token failed. Please log in again.",
-
-
-
-  "bitstream.download.page": "Now downloading {{bitstream}}..." ,
+  "auth.messages.token-refresh-failed": "Oturum jetonunuz yenilenemedi. Lütfen tekrar giriş yapın.",
 
 
 
-  "bitstream.edit.authorizations.link": "Edit bitstream's Policies",
+  "bitstream.download.page": "{{bitstream}} şimdi indiriliyor..." ,
 
-  "bitstream.edit.authorizations.title": "Edit bitstream's Policies",
+
+
+  "bitstream.edit.authorizations.link": "Bitstream Politikalarını düzenleyin",
+
+  "bitstream.edit.authorizations.title": "Bitstream Politikalarını düzenleyin",
 
   "bitstream.edit.return": "Geri",
 
@@ -566,7 +566,7 @@
 
   "bitstream.edit.form.fileName.hint": "Change the filename for the bitstream. Note that this will change the display bitstream URL, but old links will still resolve as long as the sequence ID does not change.",
 
-  "bitstream.edit.form.fileName.label": "Filename",
+  "bitstream.edit.form.fileName.label": "Dosya adı",
 
   "bitstream.edit.form.newFormat.label": "Describe new format",
 
@@ -584,7 +584,7 @@
 
   "bitstream.edit.notifications.saved.content": "Your changes to this bitstream were saved.",
 
-  "bitstream.edit.notifications.saved.title": "Bitstream saved",
+  "bitstream.edit.notifications.saved.title": "Bitstream kaydedildi",
 
   "bitstream.edit.title": "Edit bitstream",
 
@@ -615,15 +615,15 @@
 
   "bitstream-request-a-copy.files-all-true.label": "All files (of this item) in restricted access",
 
-  "bitstream-request-a-copy.message.label": "Message",
+  "bitstream-request-a-copy.message.label": "Mesaj",
 
   "bitstream-request-a-copy.return": "Geri",
 
-  "bitstream-request-a-copy.submit": "Request copy",
+  "bitstream-request-a-copy.submit": "Kopya iste",
 
-  "bitstream-request-a-copy.submit.success": "The item request was submitted successfully.",
+  "bitstream-request-a-copy.submit.success": "Öğe isteği başarıyla gönderildi.",
 
-  "bitstream-request-a-copy.submit.error": "Something went wrong with submitting the item request.",
+  "bitstream-request-a-copy.submit.error": "Öğe isteği gönderilirken bir şeyler ters gitti.",
 
 
 
@@ -667,11 +667,11 @@
 
   "browse.previous.button": "Sonraki",
 
-  "browse.startsWith.choose_start": "(Choose start)",
+  "browse.startsWith.choose_start": "(Başlangıç seçin)",
 
-  "browse.startsWith.choose_year": "(Choose year)",
+  "browse.startsWith.choose_year": "(Yıl seçin)",
 
-  "browse.startsWith.choose_year.label": "Choose the issue year",
+  "browse.startsWith.choose_year.label": "Yayın yılı seçin",
 
   "browse.startsWith.jump": "Jump to a point in the index:",
 
@@ -722,9 +722,9 @@
 
   "collection.create.notifications.success": "Koleksiyon başarıyla oluşturuldu",
 
-  "collection.create.sub-head": "{{ parent }} Community için bir Koleksiyon Oluştur",
+  "collection.create.sub-head": "{{ parent }} Komünite için bir Koleksiyon Oluştur",
 
-  "collection.curate.header": "Curate Collection: {{collection}}",
+  "collection.curate.header": "Küratör Koleksiyonu: {{collection}}",
 
   "collection.delete.cancel": "İptal",
 
@@ -758,13 +758,13 @@
 
   "collection.edit.item-mapper.collection": "Koleksiyon: \"<b>{{name}}</b>\"",
 
-  "collection.edit.item-mapper.confirm": "Map selected items",
+  "collection.edit.item-mapper.confirm": "Seçilen öğeleri eşle",
 
   "collection.edit.item-mapper.description": "This is the item mapper tool that allows collection administrators to map items from other collections into this collection. You can search for items from other collections and map them, or browse the list of currently mapped items.",
 
-  "collection.edit.item-mapper.head": "Item Mapper - Map Items from Other Collections",
+  "collection.edit.item-mapper.head": "Öğe Eşleştiricisi - Diğer Koleksiyonlardaki Öğeleri Eşle",
 
-  "collection.edit.item-mapper.no-search": "Please enter a query to search",
+  "collection.edit.item-mapper.no-search": "Lütfen aramak için bir sorgu girin",
 
   "collection.edit.item-mapper.notifications.map.error.content": "Errors occurred for mapping of {{amount}} items.",
 
@@ -784,42 +784,42 @@
 
   "collection.edit.item-mapper.remove": "Seçili öğe eşlemelerini kaldır",
 
-  "collection.edit.item-mapper.search-form.placeholder": "Search items...",
+  "collection.edit.item-mapper.search-form.placeholder": "Öğe ara...",
 
-  "collection.edit.item-mapper.tabs.browse": "Browse mapped items",
+  "collection.edit.item-mapper.tabs.browse": "Eşlenen öğelere göz atın",
 
-  "collection.edit.item-mapper.tabs.map": "Map new items",
+  "collection.edit.item-mapper.tabs.map": "Yeni öğeleri eşleyin",
 
 
-  "collection.edit.logo.delete.title": "Delete logo",
+  "collection.edit.logo.delete.title": "Logo Sil",
 
-  "collection.edit.logo.delete-undo.title": "Undo delete",
+  "collection.edit.logo.delete-undo.title": "Silmeyi Geri al",
 
-  "collection.edit.logo.label": "Collection logo",
+  "collection.edit.logo.label": "Koleksiyon logosu",
 
   "collection.edit.logo.notifications.add.error": "Uploading Collection logo failed. Please verify the content before retrying.",
 
-  "collection.edit.logo.notifications.add.success": "Upload Collection logo successful.",
+  "collection.edit.logo.notifications.add.success": "Koleksiyon logosu başarıyla yüklendi.",
 
-  "collection.edit.logo.notifications.delete.success.title": "Logo deleted",
+  "collection.edit.logo.notifications.delete.success.title": "Logo silindi",
 
-  "collection.edit.logo.notifications.delete.success.content": "Successfully deleted the collection's logo",
+  "collection.edit.logo.notifications.delete.success.content": "Başarıyla silindi the collection's logo",
 
   "collection.edit.logo.notifications.delete.error.title": "Error deleting logo",
 
-  "collection.edit.logo.upload": "Drop a Collection Logo to upload",
+  "collection.edit.logo.upload": "Yüklemek için bir Koleksiyon Logosu bırakın",
 
 
 
-  "collection.edit.notifications.success": "Successfully edited the Collection",
+  "collection.edit.notifications.success": "Koleksiyon başarıyla düzenlendi",
 
   "collection.edit.return": "Geri",
 
 
 
-  "collection.edit.tabs.curate.head": "Curate",
+  "collection.edit.tabs.curate.head": "İyileştir",
 
-  "collection.edit.tabs.curate.title": "Collection Düzenle - Curate",
+  "collection.edit.tabs.curate.title": "Koleksiyon Düzenle - Curate",
 
   "collection.edit.tabs.authorizations.head": "Yetkilendirmeler",
 
@@ -829,7 +829,7 @@
 
   "collection.edit.tabs.metadata.title": "Koleksiyon Düzenle - Metadata",
 
-  "collection.edit.tabs.roles.head": "Assign Roles",
+  "collection.edit.tabs.roles.head": "Rolleri Ata",
 
   "collection.edit.tabs.roles.title": "Koleksiyon Düzenle - Roller",
 
@@ -845,7 +845,7 @@
 
   "collection.edit.tabs.source.form.oaiSetId": "OAI specific set id",
 
-  "collection.edit.tabs.source.form.oaiSource": "OAI Provider",
+  "collection.edit.tabs.source.form.oaiSource": "OAI Sağlayıcı",
 
   "collection.edit.tabs.source.form.options.harvestType.METADATA_AND_BITSTREAMS": "Harvest metadata and bitstreams (requires ORE support)",
 
@@ -855,17 +855,17 @@
 
   "collection.edit.tabs.source.head": "İçerik Kaynağı",
 
-  "collection.edit.tabs.source.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
+  "collection.edit.tabs.source.notifications.discarded.content": "Değişiklikleriniz silindi. Değişikliklerinizi eski haline getirmek için 'Geri Al' düğmesini tıklayın.",
 
   "collection.edit.tabs.source.notifications.discarded.title": "Changed discarded",
 
   "collection.edit.tabs.source.notifications.invalid.content": "Your changes were not saved. Please make sure all fields are valid before you save.",
 
-  "collection.edit.tabs.source.notifications.invalid.title": "Metadata invalid",
+  "collection.edit.tabs.source.notifications.invalid.title": "Metadata geçersiz",
 
   "collection.edit.tabs.source.notifications.saved.content": "Your changes to this collection's content source were saved.",
 
-  "collection.edit.tabs.source.notifications.saved.title": "Content Source saved",
+  "collection.edit.tabs.source.notifications.saved.title": "İçerik Kaynağı kaydedildi",
 
   "collection.edit.tabs.source.title": "Koleksiyon Düzenle - İçerik Kaynağı",
 
@@ -891,9 +891,9 @@
 
   "collection.edit.template.notifications.delete.error": "Failed to delete the item template",
 
-  "collection.edit.template.notifications.delete.success": "Successfully deleted the item template",
+  "collection.edit.template.notifications.delete.success": "Başarıyla silindi the item template",
 
-  "collection.edit.template.title": "Edit Template Item",
+  "collection.edit.template.title": "Şablon Öğesini Düzenle",
 
 
 
@@ -942,28 +942,28 @@
   "collection.select.table.title": "Başlık",
 
 
-  "collection.source.controls.head": "Harvest Kontrolleri",
-  "collection.source.controls.test.submit.error": "Something went wrong with initiating the testing of the settings",
-  "collection.source.controls.test.failed": "The script to test the settings has failed",
-  "collection.source.controls.test.completed": "The script to test the settings has successfully finished",
-  "collection.source.controls.test.submit": "Test configuration",
-  "collection.source.controls.test.running": "Testing configuration...",
-  "collection.source.controls.import.submit.success": "The import has been successfully initiated",
-  "collection.source.controls.import.submit.error": "Something went wrong with initiating the import",
-  "collection.source.controls.import.submit": "Import now",
-  "collection.source.controls.import.running": "Importing...",
-  "collection.source.controls.import.failed": "An error occurred during the import",
-  "collection.source.controls.import.completed": "The import completed",
-  "collection.source.controls.reset.submit.success": "The reset and reimport has been successfully initiated",
-  "collection.source.controls.reset.submit.error": "Something went wrong with initiating the reset and reimport",
-  "collection.source.controls.reset.failed": "An error occurred during the reset and reimport",
-  "collection.source.controls.reset.completed": "The reset and reimport completed",
-  "collection.source.controls.reset.submit": "Reset and reimport",
-  "collection.source.controls.reset.running": "Resetting and reimporting...",
-  "collection.source.controls.harvest.status": "Harvest status:",
-  "collection.source.controls.harvest.start": "Harvest start time:",
-  "collection.source.controls.harvest.last": "Last time harvested:",
-  "collection.source.controls.harvest.message": "Harvest info:",
+  "collection.source.controls.head": "Hasat Kontrolleri",
+  "collection.source.controls.test.submit.error": "Ayarların test edilmesi başlatılırken bir şeyler ters gitti",
+  "collection.source.controls.test.failed": "Ayarları test edecek komut dosyası başarısız oldu",
+  "collection.source.controls.test.completed": "Ayarları test edecek komut dosyası başarıyla tamamlandı",
+  "collection.source.controls.test.submit": "Test yapılandırması",
+  "collection.source.controls.test.running": "Konfigürasyon test ediliyor...",
+  "collection.source.controls.import.submit.success": "İçe aktarma başarıyla başlatıldı",
+  "collection.source.controls.import.submit.error": "İçe aktarma başlatılırken bir sorun oluştu",
+  "collection.source.controls.import.submit": "Şimdi içe aktar",
+  "collection.source.controls.import.running": "İçe aktarılıyor...",
+  "collection.source.controls.import.failed": "İçe aktarma sırasında bir hata oluştu",
+  "collection.source.controls.import.completed": "İçe aktarma tamamlandı",
+  "collection.source.controls.reset.submit.success": "Sıfırlama ve yeniden içe aktarma başarıyla başlatıldı",
+  "collection.source.controls.reset.submit.error": "Sıfırlama ve yeniden içe aktarma başlatılırken bir şeyler ters gitti",
+  "collection.source.controls.reset.failed": "Sıfırlama ve yeniden içe aktarma sırasında bir hata oluştu",
+  "collection.source.controls.reset.completed": "Sıfırlama ve yeniden içe aktarma tamamlandı",
+  "collection.source.controls.reset.submit": "Sıfırla ve yeniden içe aktar",
+  "collection.source.controls.reset.running": "Sıfırlama ve yeniden içe aktarma...",
+  "collection.source.controls.harvest.status": "Hasat durumu:",
+  "collection.source.controls.harvest.start": "Hasat başlangıç ​​zamanı:",
+  "collection.source.controls.harvest.last": "Son hasat zamanı:",
+  "collection.source.controls.harvest.message": "Hasat bilgisi:",
   "collection.source.controls.harvest.no-information": "N/A",
 
 
@@ -1001,7 +1001,7 @@
 
   "community.delete.notification.fail": "Community could not be deleted",
 
-  "community.delete.notification.success": "Successfully deleted community",
+  "community.delete.notification.success": "Başarıyla silindi community",
 
   "community.delete.text": "Are you sure you want to delete community \"{{ dso }}\"",
 
@@ -1024,7 +1024,7 @@
 
   "community.edit.logo.notifications.delete.success.title": "Logo deleted",
 
-  "community.edit.logo.notifications.delete.success.content": "Successfully deleted the community's logo",
+  "community.edit.logo.notifications.delete.success.content": "Başarıyla silindi the community's logo",
 
   "community.edit.logo.notifications.delete.error.title": "Error deleting logo",
 
@@ -1032,7 +1032,7 @@
 
 
 
-  "community.edit.notifications.success": "Successfully edited the Community",
+  "community.edit.notifications.success": "Başarıyla düzenlendi the Community",
 
   "community.edit.notifications.unauthorized": "You do not have privileges to make this change",
 
@@ -1088,14 +1088,14 @@
   "comcol-role.edit.submitters.description": "The E-People and Groups that have permission to submit new items to this collection.",
 
 
-  "comcol-role.edit.item_read.name": "Default item read access",
+  "comcol-role.edit.item_read.name": "Varsayılan öğe okuma erişimi",
 
   "comcol-role.edit.item_read.description": "E-People and Groups that can read new items submitted to this collection. Changes to this role are not retroactive. Existing items in the system will still be viewable by those who had read access at the time of their addition.",
 
   "comcol-role.edit.item_read.anonymous-group": "Default read for incoming items is currently set to Anonymous.",
 
 
-  "comcol-role.edit.bitstream_read.name": "Default bitstream read access",
+  "comcol-role.edit.bitstream_read.name": "Varsayılan bitstream okuma erişimi",
 
   "comcol-role.edit.bitstream_read.description": "Community administrators can create sub-communities or collections, and manage or assign management for those sub-communities or collections. In addition, they decide who can submit items to any sub-collections, edit item metadata (after submission), and add (map) existing items from other collections (subject to authorization).",
 
@@ -1500,7 +1500,7 @@
 
   "grant-deny-request-copy.email.back": "Geri",
 
-  "grant-deny-request-copy.email.message": "Message",
+  "grant-deny-request-copy.email.message": "Mesaj",
 
   "grant-deny-request-copy.email.message.empty": "Please enter a message",
 
@@ -1586,9 +1586,9 @@
 
 
 
-  "item.edit.authorizations.heading": "With this editor you can view and alter the policies of an item, plus alter policies of individual item components: bundles and bitstreams. Briefly, an item is a container of bundles, and bundles are containers of bitstreams. Containers usually have ADD/REMOVE/READ/WRITE policies, while bitstreams only have READ/WRITE policies.",
+  "item.edit.authorizations.heading": "Bu düzenleyici ile bir öğenin politikalarını görüntüleyebilir ve değiştirebilir, ayrıca bireysel öğe bileşenlerinin politikalarını değiştirebilirsiniz: paketler ve veri akışları. Kısaca, bir öğe bir demetler kapsayıcıdır ve demetler, bit akışlarının kapsayıcılarıdır. Kapsayıcılar genellikle EKLEME/KALDIRMA/OKUMA/YAZMA ilkelerine sahipken, bit akışlarının yalnızca OKUMA/YAZMA ilkeleri vardır.",
 
-  "item.edit.authorizations.title": "Edit item's Policies",
+  "item.edit.authorizations.title": "Öğenin Politikalarını düzenle",
 
 
 
@@ -1612,7 +1612,7 @@
 
   "item.bitstreams.upload.item": "Öge: ",
 
-  "item.bitstreams.upload.notifications.bundle.created.content": "Successfully created new bundle.",
+  "item.bitstreams.upload.notifications.bundle.created.content": "Başarıyla oluşturuldu yeni bundle.",
 
   "item.bitstreams.upload.notifications.bundle.created.title": "Created bundle",
 
@@ -1642,7 +1642,7 @@
 
   "item.edit.bitstreams.edit.buttons.remove": "Kaldır",
 
-  "item.edit.bitstreams.edit.buttons.undo": "Undo changes",
+  "item.edit.bitstreams.edit.buttons.undo": "Değişiklikleri geri al",
 
   "item.edit.bitstreams.empty": "This item doesn't contain any bitstreams. Click the upload button to create one.",
 
@@ -1658,7 +1658,7 @@
 
   "item.edit.bitstreams.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
 
-  "item.edit.bitstreams.notifications.discarded.title": "Changes discarded",
+  "item.edit.bitstreams.notifications.discarded.title": "Değişiklikler atıldı",
 
   "item.edit.bitstreams.notifications.move.failed.title": "Error moving bitstreams",
 
@@ -1668,7 +1668,7 @@
 
   "item.edit.bitstreams.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
 
-  "item.edit.bitstreams.notifications.outdated.title": "Changes outdated",
+  "item.edit.bitstreams.notifications.outdated.title": "Değişiklikler güncelliğini yitirdi",
 
   "item.edit.bitstreams.notifications.remove.failed.title": "Error deleting bitstream",
 
@@ -1700,7 +1700,7 @@
 
   "item.edit.breadcrumbs": "Öge Düzenle",
 
-  "item.edit.tabs.disabled.tooltip": "You're not authorized to access this tab",
+  "item.edit.tabs.disabled.tooltip": "Bu sekmeye erişme yetkiniz yok",
 
 
   "item.edit.tabs.mapper.head": "Koleksiyon Eşleştirme",
@@ -1713,7 +1713,7 @@
 
   "item.edit.item-mapper.cancel": "İptal",
 
-  "item.edit.item-mapper.description": "This is the item mapper tool that allows administrators to map this item to other collections. You can search for collections and map them, or browse the list of collections the item is currently mapped to.",
+  "item.edit.item-mapper.description": "Bu, yöneticilerin bu öğeyi diğer koleksiyonlarla eşleştirmesini sağlayan öğe eşleme aracıdır. Koleksiyonları arayabilir ve bunları eşleyebilir veya öğenin şu anda eşlendiği koleksiyonların listesine göz atabilirsiniz.",
 
   "item.edit.item-mapper.head": "Öge Eşleyici - Ögeyi Koleksiyonlara Eşle",
 
@@ -1807,11 +1807,11 @@
 
   "item.edit.move.discard-button": "Vazgeç",
 
-  "item.edit.move.description": "Select the collection you wish to move this item to. To narrow down the list of displayed collections, you can enter a search query in the box.",
+  "item.edit.move.description": "Bu öğeyi taşımak istediğiniz koleksiyonu seçin. Görüntülenen koleksiyonların listesini daraltmak için kutuya bir arama sorgusu girebilirsiniz..",
 
   "item.edit.move.error": "An error occurred when attempting to move the item",
 
-  "item.edit.move.head": "Move item: {{id}}",
+  "item.edit.move.head": "Öğeyi Taşı: {{id}}",
 
   "item.edit.move.inheritpolicies.checkbox": "Inherit policies",
 
@@ -1819,39 +1819,39 @@
 
   "item.edit.move.move": "Taşı",
 
-  "item.edit.move.processing": "Moving...",
+  "item.edit.move.processing": "Taşınıyor...",
 
   "item.edit.move.search.placeholder": "Enter a search query to look for collections",
 
-  "item.edit.move.success": "The item has been moved successfully",
+  "item.edit.move.success": "Öğe başarıyla taşındı",
 
-  "item.edit.move.title": "Move item",
+  "item.edit.move.title": "Öğeyi Taşı",
 
 
 
   "item.edit.private.cancel": "İptal",
 
-  "item.edit.private.confirm": "Make it Private",
+  "item.edit.private.confirm": "Özel Yap",
 
   "item.edit.private.description": "Are you sure this item should be made private in the archive?",
 
   "item.edit.private.error": "An error occurred while making the item private",
 
-  "item.edit.private.header": "Make item private: {{ id }}",
+  "item.edit.private.header": "Öğeyi özel yap: {{ id }}",
 
-  "item.edit.private.success": "The item is now private",
+  "item.edit.private.success": "Öğe artık özel",
 
 
 
   "item.edit.public.cancel": "İptal",
 
-  "item.edit.public.confirm": "Make it Public",
+  "item.edit.public.confirm": "Herkese Açık Yap",
 
   "item.edit.public.description": "Are you sure this item should be made public in the archive?",
 
   "item.edit.public.error": "An error occurred while making the item public",
 
-  "item.edit.public.header": "Make item public: {{ id }}",
+  "item.edit.public.header": "Ögeyi Herkese Açık Yap: {{ id }}",
 
   "item.edit.public.success": "The item is now public",
 
@@ -1859,13 +1859,13 @@
 
   "item.edit.reinstate.cancel": "İptal",
 
-  "item.edit.reinstate.confirm": "Reinstate",
+  "item.edit.reinstate.confirm": "Eski durumuna getir",
 
   "item.edit.reinstate.description": "Are you sure this item should be reinstated to the archive?",
 
   "item.edit.reinstate.error": "An error occurred while reinstating the item",
 
-  "item.edit.reinstate.header": "Reinstate item: {{ id }}",
+  "item.edit.reinstate.header": "Ögeyi Eski durumuna getir: {{ id }}",
 
   "item.edit.reinstate.success": "The item was reinstated successfully",
 
@@ -1877,19 +1877,19 @@
 
   "item.edit.relationships.edit.buttons.remove": "Kaldır",
 
-  "item.edit.relationships.edit.buttons.undo": "Undo changes",
+  "item.edit.relationships.edit.buttons.undo": "Değişiklikleri geri al",
 
-  "item.edit.relationships.no-relationships": "No relationships",
+  "item.edit.relationships.no-relationships": "İlişki yok",
 
   "item.edit.relationships.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
 
-  "item.edit.relationships.notifications.discarded.title": "Changes discarded",
+  "item.edit.relationships.notifications.discarded.title": "Değişiklikler atıldı",
 
   "item.edit.relationships.notifications.failed.title": "Error editing relationships",
 
   "item.edit.relationships.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
 
-  "item.edit.relationships.notifications.outdated.title": "Changes outdated",
+  "item.edit.relationships.notifications.outdated.title": "Değişiklikler güncelliğini yitirdi",
 
   "item.edit.relationships.notifications.saved.content": "Your changes to this item's relationships were saved.",
 
@@ -1899,7 +1899,7 @@
 
   "item.edit.relationships.save-button": "Kaydet",
 
-  "item.edit.relationships.no-entity-type": "Add 'dspace.entity.type' metadata to enable relationships for this item",
+  "item.edit.relationships.no-entity-type": "Bu öğe için ilişkileri etkinleştirmek için 'dspace.entity.type' meta verilerini ekleyin",
 
 
   "item.edit.return": "Geri",
@@ -1909,9 +1909,9 @@
 
   "item.edit.tabs.bitstreams.title": "Öge Düzenle - Bitstreams",
 
-  "item.edit.tabs.curate.head": "Curate",
+  "item.edit.tabs.curate.head": "İyileştir",
 
-  "item.edit.tabs.curate.title": "Öge Düzenle - Curate",
+  "item.edit.tabs.curate.title": "Öge Düzenle - İyileştir",
 
   "item.edit.tabs.metadata.head": "Metadata",
 
@@ -1923,11 +1923,11 @@
 
   "item.edit.tabs.status.buttons.authorizations.button": "Yetkiler...",
 
-  "item.edit.tabs.status.buttons.authorizations.label": "Edit item's authorization policies",
+  "item.edit.tabs.status.buttons.authorizations.label": "Öğenin yetkilendirme politikalarını düzenle",
 
   "item.edit.tabs.status.buttons.delete.button": "Tamamen sil",
 
-  "item.edit.tabs.status.buttons.delete.label": "Completely expunge item",
+  "item.edit.tabs.status.buttons.delete.label": "Öğeyi tamamen sil",
 
   "item.edit.tabs.status.buttons.mappedCollections.button": "Eşlenen koleksiyonlar",
 
@@ -1937,25 +1937,25 @@
 
   "item.edit.tabs.status.buttons.move.label": "Ögeyi başka koleksiyona taşı",
 
-  "item.edit.tabs.status.buttons.private.button": "Onu private yap...",
+  "item.edit.tabs.status.buttons.private.button": "Onu özel yap...",
 
-  "item.edit.tabs.status.buttons.private.label": "Ögeyi private yap",
+  "item.edit.tabs.status.buttons.private.label": "Ögeyi özel yap",
 
-  "item.edit.tabs.status.buttons.public.button": "Make it public...",
+  "item.edit.tabs.status.buttons.public.button": "Onu herkese açık yap...",
 
-  "item.edit.tabs.status.buttons.public.label": "Ögeyi public yap",
+  "item.edit.tabs.status.buttons.public.label": "Ögeyi herkese açık yap",
 
-  "item.edit.tabs.status.buttons.reinstate.button": "Reinstate...",
+  "item.edit.tabs.status.buttons.reinstate.button": "Eski durumuna getir...",
 
-  "item.edit.tabs.status.buttons.reinstate.label": "Reinstate item into the repository",
+  "item.edit.tabs.status.buttons.reinstate.label": "Öğeyi depoya geri yükleyin",
 
-  "item.edit.tabs.status.buttons.unauthorized": "You're not authorized to perform this action",
+  "item.edit.tabs.status.buttons.unauthorized": "Bu eylemi gerçekleştirme yetkiniz yok",
 
   "item.edit.tabs.status.buttons.withdraw.button": "Geri çek...",
 
   "item.edit.tabs.status.buttons.withdraw.label": "Ögeyi bu depodan geri çek",
 
-  "item.edit.tabs.status.description": "Welcome to the item management page. From here you can withdraw, reinstate, move or delete the item. You may also update or add new metadata / bitstreams on the other tabs.",
+  "item.edit.tabs.status.description": "Öğe yönetimi sayfasına hoş geldiniz. Buradan öğeyi geri çekebilir, eski durumuna getirebilir, taşıyabilir veya silebilirsiniz. Diğer sekmelerde de güncelleyebilir veya yeni meta veri / bit akışları ekleyebilirsiniz.",
 
   "item.edit.tabs.status.head": "Durum",
 
@@ -1973,7 +1973,7 @@
 
   "item.edit.tabs.versionhistory.title": "Öge Düzenle - Versiyon Geçmişi",
 
-  "item.edit.tabs.versionhistory.under-construction": "Editing or adding new versions is not yet possible in this user interface.",
+  "item.edit.tabs.versionhistory.under-construction": "Bu kullanıcı arayüzünde henüz yeni sürümleri düzenlemek veya eklemek mümkün değildir.",
 
   "item.edit.tabs.view.head": "Ögeyi Göster",
 
@@ -2061,7 +2061,7 @@
 
   "item.page.relationships.isOrgUnitOfPerson": "Yazarlar",
 
-  "item.page.relationships.isOrgUnitOfProject": "Research Projects",
+  "item.page.relationships.isOrgUnitOfProject": "Araştırma Projeleri",
 
   "item.page.subject": "Anahtar kelimeler",
 
@@ -2172,7 +2172,7 @@
   "item.version.notice": "This is not the latest version of this item. The latest version can be found <a href='{{destination}}'>here</a>.",
 
 
-  "item.version.create.modal.header": "Yeni version",
+  "item.version.create.modal.header": "Yeni versiyon",
 
   "item.version.create.modal.text": "Create a new version for this item",
 
@@ -2277,7 +2277,7 @@
 
   "iiifsearchable.page.titleprefix": "Belge: ",
 
-  "iiifsearchable.page.doi": "Permanent Link: ",
+  "iiifsearchable.page.doi": "Kalıcı Link: ",
 
   "iiifsearchable.page.issue": "Issue: ",
 
@@ -2289,16 +2289,16 @@
 
   "iiif.page.titleprefix": "Image: ",
 
-  "iiif.page.doi": "Permanent Link: ",
+  "iiif.page.doi": "Kalıcı Bağlantı: ",
 
   "iiif.page.issue": "Issue: ",
 
-  "iiif.page.description": "Description: ",
+  "iiif.page.description": "Açıklama: ",
 
 
-  "loading.bitstream": "Loading bitstream...",
+  "loading.bitstream": "Yükleniyor bitstream...",
 
-  "loading.bitstreams": "Loading bitstreams...",
+  "loading.bitstreams": "Yükleniyor bitstreams...",
 
   "loading.browse-by": "Ögeler yükleniyor...",
 
@@ -2496,7 +2496,7 @@
 
 
 
-  "menu.section.processes": "İşler",
+  "menu.section.processes": "İşlemler",
 
 
 
@@ -2756,11 +2756,11 @@
 
   "process.detail.back" : "Geri",
 
-  "process.detail.output" : "Proses Çıkışı",
+  "process.detail.output" : "İşlem Çıktısı",
 
-  "process.detail.logs.button": "Retrieve process output",
+  "process.detail.logs.button": "İşlem çıktısını al",
 
-  "process.detail.logs.loading": "Retrieving",
+  "process.detail.logs.loading": "Alınıyor",
 
   "process.detail.logs.none": "Bu işlemin çıktısı yok",
 
@@ -2783,7 +2783,7 @@
 
   "process.overview.table.finish" : "Bitiş zamanı (UTC)",
 
-  "process.overview.table.id" : "İş ID",
+  "process.overview.table.id" : "İşlem ID",
 
   "process.overview.table.name" : "Adı",
 
@@ -2793,9 +2793,9 @@
 
   "process.overview.table.user" : "Kullanıcı",
 
-  "process.overview.title": "İşlere Genel Bakış",
+  "process.overview.title": "İşlemlere Genel Bakış",
 
-  "process.overview.breadcrumbs": "İşlere Genel Bakış",
+  "process.overview.breadcrumbs": "İşlemlere Genel Bakış",
 
   "process.overview.new": "Yeni",
 
@@ -2844,20 +2844,20 @@
 
   "profile.security.form.label.passwordrepeat": "Doğrulamak için yeniden yazınız",
 
-  "profile.security.form.notifications.success.content": "Your changes to the password were saved.",
+  "profile.security.form.notifications.success.content": "Parolada yaptığınız değişiklikler kaydedildi.",
 
-  "profile.security.form.notifications.success.title": "Şifre kaydedildi",
+  "profile.form.notifications.success.title": "Şifre kaydedildi",
 
-  "profile.security.form.notifications.error.title": "Error changing passwords",
+  "profile.security.form.notifications.error.title": "Parola değiştirilirken hata oluştu",
 
-  "profile.security.form.notifications.error.not-long-enough": "The password has to be at least 6 characters long.",
+  "profile.security.form.notifications.error.not-long-yeter": "Parola en az 6 karakter uzunluğunda olmalıdır.",
 
-  "profile.security.form.notifications.error.not-same": "The provided passwords are not the same.",
+  "profile.security.form.notifications.error.not-same": "Sağlanan parolalar aynı değil.",
 
   "profile.title": "Profil Güncelle",
 
 
-  "project.listelement.badge": "Research Project",
+  "project.listelement.badge": "Araştırma projesi",
 
   "project.page.contributor": "Katkıda Bulunanlar",
 
@@ -2906,7 +2906,7 @@
 
   "media-viewer.previous": "Sonraki",
 
-  "media-viewer.playlist": "Playlist",
+  "media-viewer.playlist": "Oynatma listesi",
 
 
   "register-email.title": "Yeni kullanıcı kaydı",
@@ -2935,23 +2935,23 @@
 
   "register-page.create-profile.security.label.password": "Şifre *",
 
-  "register-page.create-profile.security.label.passwordrepeat": "Doğrulamak için yeniden yazınız *",
+  "register-page.create-profile.security.label.passwordrepeat": "Doğrulamak için yeniden yazın *",
 
-  "register-page.create-profile.security.error.empty-password": "Please enter a password in the box below.",
+  "register-page.create-profile.security.error.empty-password": "Lütfen aşağıdaki kutuya bir şifre girin.",
 
-  "register-page.create-profile.security.error.matching-passwords": "The passwords do not match.",
+  "register-page.create-profile.security.error.matching-passwords": "Parolalar eşleşmiyor.",
 
-  "register-page.create-profile.security.error.password-length": "The password should be at least 6 characters long.",
+  "register-page.create-profile.security.error.password-length": "Parola en az 6 karakter uzunluğunda olmalıdır.",
 
-  "register-page.create-profile.submit": "Complete Registration",
+  "register-page.create-profile.submit": "Kaydı Tamamla",
 
-  "register-page.create-profile.submit.error.content": "Something went wrong while registering a new user.",
+  "register-page.create-profile.submit.error.content": "Yeni bir kullanıcı kaydedilirken bir şeyler ters gitti.",
 
-  "register-page.create-profile.submit.error.head": "Registration failed",
+  "register-page.create-profile.submit.error.head": "Kayıt başarısız oldu",
 
   "register-page.create-profile.submit.success.content": "The registration was successful. You have been logged in as the created user.",
 
-  "register-page.create-profile.submit.success.head": "Registration completed",
+  "register-page.create-profile.submit.success.head": "Kayıt tamamlandı",
 
 
   "register-page.registration.header": "Yeni kullanıcı kaydı",
@@ -2966,9 +2966,9 @@
 
   "register-page.registration.email.hint": "This address will be verified and used as your login name.",
 
-  "register-page.registration.submit": "Register",
+  "register-page.registration.submit": "Kaydet",
 
-  "register-page.registration.success.head": "Verification email sent",
+  "register-page.registration.success.head": "Doğrulama e-postası gönderildi",
 
   "register-page.registration.success.content": "An email has been sent to {{ email }} containing a special URL and further instructions.",
 
@@ -2986,11 +2986,11 @@
 
   "relationships.isAuthorOf": "Yazarlar",
 
-  "relationships.isAuthorOf.Person": "Yazarlar (persons)",
+  "relationships.isAuthorOf.Person": "Yazarlar (kişiler)",
 
-  "relationships.isAuthorOf.OrgUnit": "Yazarlar (Kurum birimleri)",
+  "relationships.isAuthorOf.OrgUnit": "Yazarlar (kurum birimleri)",
 
-  "relationships.isIssueOf": "Journal Issues",
+  "relationships.isIssueOf": "Dergi Sayıları",
 
   "relationships.isJournalIssueOf": "Dergi Sayısı",
 
@@ -3000,11 +3000,11 @@
 
   "relationships.isPersonOf": "Yazarlar",
 
-  "relationships.isProjectOf": "Research Projects",
+  "relationships.isProjectOf": "Araştırma Projeleri",
 
   "relationships.isPublicationOf": "Yayınlar",
 
-  "relationships.isPublicationOfJournalIssue": "Articles",
+  "relationships.isPublicationOfJournalIssue": "Makaleler",
 
   "relationships.isSingleJournalOf": "Dergi",
 
@@ -3050,7 +3050,7 @@
 
   "resource-policies.create.page.title": "Create new resource policy",
 
-  "resource-policies.delete.btn": "Delete selected",
+  "resource-policies.delete.btn": "Seçileni sil",
 
   "resource-policies.delete.btn.title": "Delete selected resource policies",
 
@@ -3078,7 +3078,7 @@
 
   "resource-policies.form.eperson-group-list.tab.group": "Search for a group",
 
-  "resource-policies.form.eperson-group-list.table.headers.action": "Action",
+  "resource-policies.form.eperson-group-list.table.headers.action": "Aksiyon",
 
   "resource-policies.form.eperson-group-list.table.headers.id": "ID",
 
@@ -3096,7 +3096,7 @@
 
   "resource-policies.form.policy-type.required": "You must select the resource policy type.",
 
-  "resource-policies.table.headers.action": "Action",
+  "resource-policies.table.headers.action": "Aksiyon",
 
   "resource-policies.table.headers.date.end": "Bitiş Tarihi",
 
@@ -3104,9 +3104,9 @@
 
   "resource-policies.table.headers.edit": "Düzenle",
 
-  "resource-policies.table.headers.edit.group": "Edit group",
+  "resource-policies.table.headers.edit.group": "Grup Düzenle",
 
-  "resource-policies.table.headers.edit.policy": "Edit policy",
+  "resource-policies.table.headers.edit.policy": "Politika Düzenle",
 
   "resource-policies.table.headers.eperson": "E-Kişi",
 
@@ -3118,19 +3118,19 @@
 
   "resource-policies.table.headers.policyType": "Türü",
 
-  "resource-policies.table.headers.title.for.bitstream": "Policies for Bitstream",
+  "resource-policies.table.headers.title.for.bitstream": "Bitstream Politikaları",
 
-  "resource-policies.table.headers.title.for.bundle": "Policies for Bundle",
+  "resource-policies.table.headers.title.for.bundle": "Bundle Politikaları",
 
-  "resource-policies.table.headers.title.for.item": "Policies for Item",
+  "resource-policies.table.headers.title.for.item": "Öğe Politikaları",
 
-  "resource-policies.table.headers.title.for.community": "Policies for Community",
+  "resource-policies.table.headers.title.for.community": "Komünite Politikaları",
 
-  "resource-policies.table.headers.title.for.collection": "Policies for Collection",
+  "resource-policies.table.headers.title.for.collection": "Koleksiyon Politikaları",
 
 
 
-  "search.description": "",
+  "search.description": "Arama",
 
   "search.switch-configuration.title": "Göster",
 
@@ -3597,17 +3597,17 @@
 
   "submission.sections.describe.relationship-lookup.external-source.import-modal.select": "Select a local match:",
 
-  "submission.sections.describe.relationship-lookup.search-tab.deselect-all": "Deselect all",
+  "submission.sections.describe.relationship-lookup.search-tab.deselect-all": "Tüm seçimleri kaldır",
 
-  "submission.sections.describe.relationship-lookup.search-tab.deselect-page": "Deselect page",
+  "submission.sections.describe.relationship-lookup.search-tab.deselect-page": "Sayfanın seçimini kaldır",
 
   "submission.sections.describe.relationship-lookup.search-tab.loading": "Yükleniyor...",
 
   "submission.sections.describe.relationship-lookup.search-tab.placeholder": "Search query",
 
-  "submission.sections.describe.relationship-lookup.search-tab.search": "Go",
+  "submission.sections.describe.relationship-lookup.search-tab.search": "Git",
 
-  "submission.sections.describe.relationship-lookup.search-tab.search-form.placeholder": "Search...",
+  "submission.sections.describe.relationship-lookup.search-tab.search-form.placeholder": "Ara...",
 
   "submission.sections.describe.relationship-lookup.search-tab.select-all": "Tümünü seç",
 
@@ -3677,8 +3677,8 @@
 
   "submission.sections.describe.relationship-lookup.selection-tab.tab-title": "Current Selection ({{ count }})",
 
-  "submission.sections.describe.relationship-lookup.title.isJournalIssueOfPublication": "Journal Issues",
-  "submission.sections.describe.relationship-lookup.title.JournalIssue": "Journal Issues",
+  "submission.sections.describe.relationship-lookup.title.isJournalIssueOfPublication": "Dergi Sayıları",
+  "submission.sections.describe.relationship-lookup.title.JournalIssue": "Dergi Sayıları",
 
   "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfPublication": "Journal Volumes",
   "submission.sections.describe.relationship-lookup.title.JournalVolume": "Journal Volumes",
@@ -3763,33 +3763,33 @@
 
   "submission.sections.ccLicense.type": "Lisans Türü",
 
-  "submission.sections.ccLicense.select": "Select a license type…",
+  "submission.sections.ccLicense.select": "Bir lisans türü seçin...",
 
-  "submission.sections.ccLicense.change": "Change your license type…",
+  "submission.sections.ccLicense.change": "Lisans türünüzü değiştirin...",
 
-  "submission.sections.ccLicense.none": "No licenses available",
+  "submission.sections.ccLicense.none": "Kullanılabilir lisans yok",
 
-  "submission.sections.ccLicense.option.select": "Select an option…",
+  "submission.sections.ccLicense.option.select": "Bir seçenek belirleyin...",
 
-  "submission.sections.ccLicense.link": "You’ve selected the following license:",
+  "submission.sections.ccLicense.link": "Şu lisansı seçtiniz:",
 
-  "submission.sections.ccLicense.confirmation": "I grant the license above",
+  "submission.sections.ccLicense.confirmation": "Yukarıdaki lisansı veriyorum",
 
   "submission.sections.general.add-more": "Daha ekle",
 
   "submission.sections.general.collection": "Koleksiyon",
 
-  "submission.sections.general.deposit_error_notice": "There was an issue when submitting the item, please try again later.",
+  "submission.sections.general.deposit_error_notice": "Öğe gönderilirken bir sorun oluştu, lütfen daha sonra tekrar deneyin.",
 
-  "submission.sections.general.deposit_success_notice": "Submission deposited successfully.",
+  "submission.sections.general.deposit_success_notice": "Gönderim başarıyla yatırıldı.",
 
-  "submission.sections.general.discard_error_notice": "There was an issue when discarding the item, please try again later.",
+  "submission.sections.general.discard_error_notice": "Öğe atılırken bir sorun oluştu, lütfen daha sonra tekrar deneyin.",
 
-  "submission.sections.general.discard_success_notice": "Submission discarded successfully.",
+  "submission.sections.general.discard_success_notice": "Gönderim başarıyla silindi.",
 
-  "submission.sections.general.metadata-extracted": "New metadata have been extracted and added to the <strong>{{sectionId}}</strong> section.",
+  "submission.sections.general.metadata-extracted": "Yeni meta veriler çıkarıldı ve <strong>{{sectionId}}</strong> bölümüne eklendi.",
 
-  "submission.sections.general.metadata-extracted-new-section": "New <strong>{{sectionId}}</strong> section has been added to submission.",
+  "submission.sections.general.metadata-extracted-new-section": "Gönderime yeni <strong>{{sectionId}}</strong> bölümü eklendi.",
 
   "submission.sections.general.no-collection": "Koleksiyon bulunamadı",
 
@@ -4013,7 +4013,7 @@
 
   "uploader.processing": "İşleniyor",
 
-  "uploader.queue-length": "Queue length",
+  "uploader.queue-length": "Kuyruk uzunluğu",
 
   "virtual-metadata.delete-item.info": "Select the types for which you want to save the virtual metadata as real metadata",
 
@@ -4067,9 +4067,9 @@
   "workflow-item.view.breadcrumbs": "İş Akışı Görünümü",
 
 
-  "idle-modal.header": "Oturumu yakında sonlanacak",
+  "idle-modal.header": "Oturum yakında sonlanacak",
 
-  "idle-modal.info": "For security reasons, user sessions expire after {{ timeToExpire }} minutes of inactivity. Your session will expire soon. Would you like to extend it or log out?",
+  "idle-modal.info": "Güvenlik nedenleriyle, kullanıcı oturumları {{ timeToExpire }} dakika işlem yapılmadığında sona erer. Oturumunuz yakında sona erecek. Uzatmak mı yoksa oturumu kapatmak mı istiyorsunuz?",
 
   "idle-modal.log-out": "Çıkış yap",
 
