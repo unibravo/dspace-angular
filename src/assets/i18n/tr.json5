@@ -597,6 +597,7 @@
   "bitstream-request-a-copy.intro": "Aşağıdaki öğenin bir kopyasını istemek için aşağıdaki bilgileri girin: ",
 
   "bitstream-request-a-copy.intro.bitstream.one": "Aşağıdaki dosya isteniyor: ",
+
   "bitstream-request-a-copy.intro.bitstream.all": "Tüm dosyalar isteniyor. ",
 
   "bitstream-request-a-copy.name.label": "Adı *",
@@ -646,6 +647,7 @@
   "browse.metadata.subject": "Konu",
 
   "browse.metadata.title": "Başlık",
+
 
   "browse.metadata.author.breadcrumbs": "Yazara Gözat",
 
@@ -752,7 +754,7 @@
 
   "collection.edit.item-mapper.confirm": "Seçilen öğeleri eşle",
 
-  "collection.edit.item-mapper.description": "This is the item mapper tool that allows collection administrators to map items from other collections into this collection. You can search for items from other collections and map them, or browse the list of currently mapped items.",
+  "collection.edit.item-mapper.description": "Bu, koleksiyon yöneticilerinin diğer koleksiyonlardaki öğeleri bu koleksiyona eşlemelerine olanak tanıyan öğe eşleyici aracıdır. Diğer koleksiyonlardaki öğeleri arayabilir ve bunları eşleyebilir veya şu anda eşlenmiş öğelerin listesine göz atabilirsiniz.",
 
   "collection.edit.item-mapper.head": "Öğe Eşleştiricisi - Diğer Koleksiyonlardaki Öğeleri Eşle",
 
@@ -1648,7 +1650,7 @@
 
   "item.edit.bitstreams.headers.name": "Adı",
 
-  "item.edit.bitstreams.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
+  "item.edit.bitstreams.notifications.discarded.content": "Değişiklikleriniz silindi. Değişikliklerinizi eski haline getirmek için 'Geri Al' düğmesini tıklayın",
 
   "item.edit.bitstreams.notifications.discarded.title": "Değişiklikler atıldı",
 
@@ -1666,7 +1668,7 @@
 
   "item.edit.bitstreams.notifications.remove.saved.content": "Your removal changes to this item's bitstreams have been saved.",
 
-  "item.edit.bitstreams.notifications.remove.saved.title": "Removal changes saved",
+  "item.edit.bitstreams.notifications.remove.saved.title": "Kaldırma değişiklikleri kaydedildi",
 
   "item.edit.bitstreams.reinstate-button": "Geri al",
 
@@ -1684,7 +1686,7 @@
 
   "item.edit.delete.error": "An error occurred while deleting the item",
 
-  "item.edit.delete.header": "Delete item: {{ id }}",
+  "item.edit.delete.header": "Öge Sil: {{ id }}",
 
   "item.edit.delete.success": "The item has been deleted",
 
@@ -1711,11 +1713,11 @@
 
   "item.edit.item-mapper.item": "Öge: \"<b>{{name}}</b>\"",
 
-  "item.edit.item-mapper.no-search": "Please enter a query to search",
+  "item.edit.item-mapper.no-search": "Lütfen aramak için bir sorgu girin",
 
   "item.edit.item-mapper.notifications.add.error.content": "Errors occurred for mapping of item to {{amount}} collections.",
 
-  "item.edit.item-mapper.notifications.add.error.head": "Mapping errors",
+  "item.edit.item-mapper.notifications.add.error.head": "Eşleme hataları",
 
   "item.edit.item-mapper.notifications.add.success.content": "Successfully mapped item to {{amount}} collections.",
 
@@ -1759,11 +1761,11 @@
 
   "item.edit.metadata.headers.value": "Değer",
 
-  "item.edit.metadata.metadatafield.invalid": "Please choose a valid metadata field",
+  "item.edit.metadata.metadatafield.invalid": "Lütfen geçerli bir meta veri alanı seçin",
 
   "item.edit.metadata.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
 
-  "item.edit.metadata.notifications.discarded.title": "Changed discarded",
+  "item.edit.metadata.notifications.discarded.title": "Değişiklikler atıldı",
 
   "item.edit.metadata.notifications.error.title": "An error occurred",
 
@@ -1773,7 +1775,7 @@
 
   "item.edit.metadata.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
 
-  "item.edit.metadata.notifications.outdated.title": "Changed outdated",
+  "item.edit.metadata.notifications.outdated.title": "Değişiklikler eski",
 
   "item.edit.metadata.notifications.saved.content": "Your changes to this item's metadata were saved.",
 
@@ -1805,15 +1807,15 @@
 
   "item.edit.move.head": "Öğeyi Taşı: {{id}}",
 
-  "item.edit.move.inheritpolicies.checkbox": "Inherit policies",
+  "item.edit.move.inheritpolicies.checkbox": "İlkeleri devral",
 
-  "item.edit.move.inheritpolicies.description": "Inherit the default policies of the destination collection",
+  "item.edit.move.inheritpolicies.description": "Hedef koleksiyonun varsayılan ilkelerini devral",
 
   "item.edit.move.move": "Taşı",
 
   "item.edit.move.processing": "Taşınıyor...",
 
-  "item.edit.move.search.placeholder": "Enter a search query to look for collections",
+  "item.edit.move.search.placeholder": "Koleksiyon aramak için bir arama sorgusu girin",
 
   "item.edit.move.success": "Öğe başarıyla taşındı",
 
@@ -2069,11 +2071,11 @@
 
   "item.page.return": "Geri",
 
-  "item.page.version.create": "Create new version",
+  "item.page.version.create": "Yeni versiyon oluştur",
 
   "item.page.version.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
 
-  "item.preview.dc.identifier.uri": "Identifier:",
+  "item.preview.dc.identifier.uri": "Tanımlayıcı:",
 
   "item.preview.dc.contributor.author": "Yazarlar:",
 
@@ -2081,7 +2083,7 @@
 
   "item.preview.dc.description.abstract": "Özet:",
 
-  "item.preview.dc.identifier.other": "Other identifier:",
+  "item.preview.dc.identifier.other": "Diğer tanımlayıcı:",
 
   "item.preview.dc.language.iso": "Dil:",
 
@@ -2097,15 +2099,15 @@
 
   "item.preview.project.funder.name": "Finansör:",
 
-  "item.preview.project.funder.identifier": "Funder Identifier:",
+  "item.preview.project.funder.identifier": "Finansör Tanımlayıcı:",
 
-  "item.preview.oaire.awardNumber": "Funding ID:",
+  "item.preview.oaire.awardNumber": "Finansör ID:",
 
-  "item.preview.dc.title.alternative": "Acronym:",
+  "item.preview.dc.title.alternative": "Kısaltma:",
 
-  "item.preview.dc.coverage.spatial": "Jurisdiction:",
+  "item.preview.dc.coverage.spatial": "Yargı yetkisi:",
 
-  "item.preview.oaire.fundingStream": "Funding Stream:",
+  "item.preview.oaire.fundingStream": "Finansör Stream:",
 
 
 
@@ -2120,7 +2122,7 @@
   "item.select.table.title": "Başlık",
 
 
-  "item.version.history.empty": "There are no other versions for this item yet.",
+  "item.version.history.empty": "Bu öğe için henüz başka sürüm yok.",
 
   "item.version.history.head": "Versiyon Geçmişi",
 
@@ -2156,7 +2158,7 @@
 
   "item.version.history.table.action.newVersion": "Create new version from this one",
 
-  "item.version.history.table.action.deleteVersion": "Delete version",
+  "item.version.history.table.action.deleteVersion": "Version Sil",
 
   "item.version.history.table.action.hasDraft": "A new version cannot be created because there is an inprogress submission in the version history",
 
@@ -2172,7 +2174,7 @@
 
   "item.version.create.modal.button.confirm": "Oluştur",
 
-  "item.version.create.modal.button.confirm.tooltip": "Create new version",
+  "item.version.create.modal.button.confirm.tooltip": "Yeni Version Oluştur",
 
   "item.version.create.modal.button.cancel": "İptal",
 
@@ -2189,7 +2191,7 @@
   "item.version.create.notification.inProgress" : "A new version cannot be created because there is an inprogress submission in the version history",
 
 
-  "item.version.delete.modal.header": "Delete version",
+  "item.version.delete.modal.header": "Version Sil",
 
   "item.version.delete.modal.text": "Do you want to delete version {{version}}?",
 
@@ -2385,7 +2387,7 @@
   "menu.section.browse_community_by_title": "Başlığa göre",
 
 
-  "menu.section.browse_global": "Tüm DSpace",
+  "menu.section.browse_global": "Tüm Veri Havuzu",
 
   "menu.section.browse_global_by_author": "Yazara göre",
 
@@ -2530,7 +2532,7 @@
   "menu.section.workflow": "İş Akış Yönetimi",
 
 
-  "mydspace.breadcrumbs": "MyDSpace",
+  "mydspace.breadcrumbs": "Benim Space'im",
 
   "mydspace.description": "",
 
@@ -2586,7 +2588,7 @@
 
   "mydspace.results.no-uri": "Uri yok",
 
-  "mydspace.search-form.placeholder": "Mydspace'de ara...",
+  "mydspace.search-form.placeholder": "Benim Space'imde ara...",
 
   "mydspace.show.workflow": "Tüm görevler",
 
@@ -2594,15 +2596,15 @@
 
   "mydspace.status.archived": "Arşivlendi",
 
-  "mydspace.status.validation": "Onay aşamasında",
+  "mydspace.status.validation": "Doğrulama aşaması",
 
-  "mydspace.status.waiting-for-controller": "Onaycı bekleniyor",
+  "mydspace.status.waiting-for-controller": "Denetmen bekleniyor",
 
   "mydspace.status.workflow": "İşakışı",
 
   "mydspace.status.workspace": "Workspace",
 
-  "mydspace.title": "MyDSpace",
+  "mydspace.title": "Benim Space'im",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -2617,7 +2619,7 @@
   "mydspace.view-btn": "Göster",
 
 
-  "nav.browse.header": "Tüm DSpace",
+  "nav.browse.header": "Tüm Veri Havuzu",
 
   "nav.community-browse.header": "Komüniteye göre",
 
@@ -2629,7 +2631,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "MyDSpace",
+  "nav.mydspace": "Benim Space'im",
 
   "nav.profile": "Profil",
 
@@ -3164,10 +3166,6 @@
   "search.filters.applied.f.withdrawn": "Geri çekilme",
 
 
-  "search.filters.applied.f.validation": "Onay aşamasında",
-  "search.filters.applied.f.validation.label": "Onay aşamasında",
-
-
   "search.filters.filter.author.head": "Yazar",
 
   "search.filters.filter.author.placeholder": "Yazar adı",
@@ -3180,13 +3178,13 @@
 
   "search.filters.filter.birthDate.label": "Doğum Tarihi Ara",
 
-  "search.filters.filter.collapse": "Collapse filter",
+  "search.filters.filter.collapse": "Filtreyi daraltr",
 
-  "search.filters.filter.creativeDatePublished.head": "Date Published",
+  "search.filters.filter.creativeDatePublished.head": "Yayınlandığı Tarih",
 
-  "search.filters.filter.creativeDatePublished.placeholder": "Date Published",
+  "search.filters.filter.creativeDatePublished.placeholder": "Yayınlandığı Tarih",
 
-  "search.filters.filter.creativeDatePublished.label": "Search date published",
+  "search.filters.filter.creativeDatePublished.label": "Yayınlandığı Tarihi Ara",
 
   "search.filters.filter.creativeWorkEditor.head": "Editör",
 
@@ -3216,11 +3214,11 @@
 
   "search.filters.filter.dateIssued.min.label": "Başlama",
 
-  "search.filters.filter.dateSubmitted.head": "Date submitted",
+  "search.filters.filter.dateSubmitted.head": "Gönderim Tarihi",
 
-  "search.filters.filter.dateSubmitted.placeholder": "Date submitted",
+  "search.filters.filter.dateSubmitted.placeholder": "Gönderim tarihi",
 
-  "search.filters.filter.dateSubmitted.label": "Search date submitted",
+  "search.filters.filter.dateSubmitted.label": "Gönderim tarihi ara",
 
   "search.filters.filter.discoverable.head": "Özel",
 
@@ -3278,11 +3276,11 @@
 
   "search.filters.filter.organizationAddressLocality.label": "Şehir Ara",
 
-  "search.filters.filter.organizationFoundingDate.head": "Date Founded",
+  "search.filters.filter.organizationFoundingDate.head": "Kuruluş tarihi",
 
-  "search.filters.filter.organizationFoundingDate.placeholder": "Date Founded",
+  "search.filters.filter.organizationFoundingDate.placeholder": "Kuruluş tarihi",
 
-  "search.filters.filter.organizationFoundingDate.label": "Search date founded",
+  "search.filters.filter.organizationFoundingDate.label": "Kuruluş tarihi ara",
 
   "search.filters.filter.scope.head": "Kapsam",
 
@@ -3337,19 +3335,19 @@
 
   "search.form.search": "Ara",
 
-  "search.form.search_dspace": "Tüm Repository",
+  "search.form.search_dspace": "Tüm Veri Havuzu",
 
-  "search.form.scope.all": "Tüm DSpace",
+  "search.form.scope.all": "Tüm Veri Havuzu",
 
 
 
   "search.results.head": "Arama Sonuçları",
 
-  "search.results.no-results": "Your search returned no results. Having trouble finding what you're looking for? Try putting",
+  "search.results.no-results": "Aramanız hiçbir sonuç vermedi. Aradığınızı bulmakta sorun mu yaşıyorsunuz? koymayı dene",
 
   "search.results.no-results-link": "quotes around it",
 
-  "search.results.empty": "Your search returned no results.",
+  "search.results.empty": "Aramanız hiçbir sonuç vermedi.",
 
 
   "default.search.results.head": "Arama Sonuçları",
