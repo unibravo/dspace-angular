@@ -576,9 +576,9 @@
 
   "bitstream.edit.form.selectedFormat.hint": "If the format is not in the above list, <b>select \"format not in list\" above</b> and describe it under \"Describe new format\".",
 
-  "bitstream.edit.form.selectedFormat.label": "Selected Format",
+  "bitstream.edit.form.selectedFormat.label": "Seçilen Format",
 
-  "bitstream.edit.form.selectedFormat.unknown": "Format not in list",
+  "bitstream.edit.form.selectedFormat.unknown": "Listede Format yok",
 
   "bitstream.edit.notifications.error.format.title": "An error occurred saving the bitstream's format",
 
@@ -586,34 +586,34 @@
 
   "bitstream.edit.notifications.saved.title": "Bitstream kaydedildi",
 
-  "bitstream.edit.title": "Edit bitstream",
+  "bitstream.edit.title": "Bitstream Düzenle",
 
-  "bitstream-request-a-copy.alert.canDownload1": "You already have access to this file. If you want to download the file, click ",
+  "bitstream-request-a-copy.alert.canDownload1": "Bu dosyaya zaten erişiminiz var. Dosyayı indirmek istiyorsanız tıklayın ",
 
-  "bitstream-request-a-copy.alert.canDownload2": "here",
+  "bitstream-request-a-copy.alert.canDownload2": "burada",
 
-  "bitstream-request-a-copy.header": "Request a copy of the file",
+  "bitstream-request-a-copy.header": "Dosyanın bir kopyasını isteyin",
 
-  "bitstream-request-a-copy.intro": "Enter the following information to request a copy for the following item: ",
+  "bitstream-request-a-copy.intro": "Aşağıdaki öğenin bir kopyasını istemek için aşağıdaki bilgileri girin: ",
 
-  "bitstream-request-a-copy.intro.bitstream.one": "Requesting the following file: ",
-  "bitstream-request-a-copy.intro.bitstream.all": "Requesting all files. ",
+  "bitstream-request-a-copy.intro.bitstream.one": "Aşağıdaki dosya isteniyor: ",
+  "bitstream-request-a-copy.intro.bitstream.all": "Tüm dosyalar isteniyor. ",
 
-  "bitstream-request-a-copy.name.label": "Name *",
+  "bitstream-request-a-copy.name.label": "Adı *",
 
-  "bitstream-request-a-copy.name.error": "The name is required",
+  "bitstream-request-a-copy.name.error": "Ad gerekli",
 
-  "bitstream-request-a-copy.email.label": "Your e-mail address *",
+  "bitstream-request-a-copy.email.label": "E-mail adresiniz *",
 
-  "bitstream-request-a-copy.email.hint": "This email address is used for sending the file.",
+  "bitstream-request-a-copy.email.hint": "Bu e-posta adresi dosyayı göndermek için kullanılır.",
 
-  "bitstream-request-a-copy.email.error": "Please enter a valid email address.",
+  "bitstream-request-a-copy.email.error": "Lütfen geçerli bir e-posta adresi girin.",
 
-  "bitstream-request-a-copy.allfiles.label": "Files",
+  "bitstream-request-a-copy.allfiles.label": "Dosyalar",
 
-  "bitstream-request-a-copy.files-all-false.label": "Only the requested file",
+  "bitstream-request-a-copy.files-all-false.label": "Sadece istenen dosya",
 
-  "bitstream-request-a-copy.files-all-true.label": "All files (of this item) in restricted access",
+  "bitstream-request-a-copy.files-all-true.label": "Kısıtlı erişimdeki tüm dosyalar (bu öğenin)",
 
   "bitstream-request-a-copy.message.label": "Mesaj",
 
@@ -646,14 +646,6 @@
   "browse.metadata.subject": "Konu",
 
   "browse.metadata.title": "Başlık",
-
-  "browse.metadata.advisor": "Danışman",
-  "browse.comcol.by.advisor": "Danışmana göre",
-  "browse.metadata.advisor.breadcrumbs": "Danışmana göre Gözat",
-
-  "browse.metadata.type": "Türü",
-  "browse.comcol.by.type": "Türe göre",
-  "browse.metadata.type.breadcrumbs": "Türe göre Gözat",
 
   "browse.metadata.author.breadcrumbs": "Yazara Gözat",
 
@@ -1833,9 +1825,9 @@
 
   "item.edit.private.confirm": "Özel Yap",
 
-  "item.edit.private.description": "Are you sure this item should be made private in the archive?",
+  "item.edit.private.description": "Bu öğenin arşivde gizli yapılması gerektiğinden emin misiniz?",
 
-  "item.edit.private.error": "An error occurred while making the item private",
+  "item.edit.private.error": "Öğe özel yapılırken bir hata oluştu",
 
   "item.edit.private.header": "Öğeyi özel yap: {{ id }}",
 
@@ -1847,13 +1839,13 @@
 
   "item.edit.public.confirm": "Herkese Açık Yap",
 
-  "item.edit.public.description": "Are you sure this item should be made public in the archive?",
+  "item.edit.public.description": "Bu öğenin arşivde herkese açık olması gerektiğinden emin misiniz?",
 
   "item.edit.public.error": "An error occurred while making the item public",
 
   "item.edit.public.header": "Ögeyi Herkese Açık Yap: {{ id }}",
 
-  "item.edit.public.success": "The item is now public",
+  "item.edit.public.success": "Öğe artık herkese açık",
 
 
 
@@ -1923,7 +1915,7 @@
 
   "item.edit.tabs.status.buttons.authorizations.button": "Yetkiler...",
 
-  "item.edit.tabs.status.buttons.authorizations.label": "Öğenin yetkilendirme politikalarını düzenle",
+  "item.edit.tabs.status.buttons.authorizations.label": "Yetkilendirme politikalarını düzenle",
 
   "item.edit.tabs.status.buttons.delete.button": "Tamamen sil",
 
@@ -1931,17 +1923,17 @@
 
   "item.edit.tabs.status.buttons.mappedCollections.button": "Eşlenen koleksiyonlar",
 
-  "item.edit.tabs.status.buttons.mappedCollections.label": "Eşlenen koleksiyonlar yönet",
+  "item.edit.tabs.status.buttons.mappedCollections.label": "Eşlenen koleksiyonları yönet",
 
   "item.edit.tabs.status.buttons.move.button": "Taşı...",
 
   "item.edit.tabs.status.buttons.move.label": "Ögeyi başka koleksiyona taşı",
 
-  "item.edit.tabs.status.buttons.private.button": "Onu özel yap...",
+  "item.edit.tabs.status.buttons.private.button": "Özel yap...",
 
   "item.edit.tabs.status.buttons.private.label": "Ögeyi özel yap",
 
-  "item.edit.tabs.status.buttons.public.button": "Onu herkese açık yap...",
+  "item.edit.tabs.status.buttons.public.button": "Herkese açık yap...",
 
   "item.edit.tabs.status.buttons.public.label": "Ögeyi herkese açık yap",
 
@@ -1961,11 +1953,11 @@
 
   "item.edit.tabs.status.labels.handle": "Handle",
 
-  "item.edit.tabs.status.labels.id": "Öge Internal ID",
+  "item.edit.tabs.status.labels.id": "Internal ID",
 
   "item.edit.tabs.status.labels.itemPage": "Öge Sayfası",
 
-  "item.edit.tabs.status.labels.lastModified": "Son Düzenleme",
+  "item.edit.tabs.status.labels.lastModified": "Değiştirme tarihi",
 
   "item.edit.tabs.status.title": "Öge Düzenle -  Durum",
 
