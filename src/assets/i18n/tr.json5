@@ -636,10 +636,6 @@
 
   "browse.comcol.by.title": "Başlığa göre",
 
-  "browse.comcol.by.type": "Türe göre",
-
-  "browse.comcol.by.advisor": "Danışmana göre",
-
   "browse.comcol.head": "Gözat",
 
   "browse.empty": "Gösterilecek öğe yok.",
@@ -652,14 +648,7 @@
 
   "browse.metadata.title": "Başlık",
 
-
-  "browse.metadata.type": "Türe göre",
-
-  "browse.metadata.advisor": "Danışmana göre",
-
-  "browse.metadata.type.breadcrumbs": "Türe göre",
-
-  "browse.metadata.advisor.breadcrumbs": "Danışmana göre",
+  
 
   "browse.metadata.author.breadcrumbs": "Yazara Gözat",
 
@@ -2403,15 +2392,11 @@
 
   "menu.section.browse_global_by_author": "Yazara göre",
 
-  "menu.section.browse_global_by_advisor": "Danışmana göre",
-
   "menu.section.browse_global_by_dateissued": "Yayın Tarihine göre",
 
   "menu.section.browse_global_by_subject": "Konuya göre",
 
   "menu.section.browse_global_by_title": "Başlığa göre",
-
-  "menu.section.browse_global_by_type": "Türe göre",
 
   "menu.section.browse_global_communities_and_collections": "Komünite & Koleksiyonlar",
 
