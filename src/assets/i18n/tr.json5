@@ -2,7 +2,7 @@
 
   "401.help": "Bu sayfaya erişim yetkiniz yok. Ana sayfaya geri dönmek için aşağıdaki butonu kullanabilirsiniz.",
 
-  "401.link.home-page": "Beni ana sayfaya götür",
+  "401.link.home-page": "Anasayfaya dön",
 
   "401.unauthorized": "yetkisiz",
 
@@ -10,7 +10,7 @@
 
   "403.help": "Bu sayfaya erişim izniniz yok. Ana sayfaya geri dönmek için aşağıdaki butonu kullanabilirsiniz.",
 
-  "403.link.home-page": "Beni ana sayfaya götür",
+  "403.link.home-page": "Anasayfaya dön",
 
   "403.forbidden": "yasaklanmış",
 
@@ -18,7 +18,7 @@
 
   "404.help": "Aradığınız sayfayı bulamıyoruz. Sayfa taşınmış veya silinmiş olabilir. Ana sayfaya geri dönmek için aşağıdaki butonu kullanabilirsiniz. ",
 
-  "404.link.home-page": "Beni ana sayfaya götür",
+  "404.link.home-page": "Anasayfaya dön",
 
   "404.page-not-found": "sayfa bulunamadı",
 
@@ -648,7 +648,7 @@
 
   "browse.metadata.title": "Başlık",
 
-  
+
 
   "browse.metadata.author.breadcrumbs": "Yazara Gözat",
 
@@ -1513,7 +1513,7 @@
 
   "grant-deny-request-copy.header": "Belge kopyalama talebi",
 
-  "grant-deny-request-copy.home-page": "Beni ana sayfaya götür",
+  "grant-deny-request-copy.home-page": "Anasayfaya dön",
 
   "grant-deny-request-copy.intro1": "<a href='{{ url }}'>{{ name }}</a> belgesinin yazarlarından biriyseniz, lütfen aşağıdakilerden birini kullanın. kullanıcının isteğine yanıt vermek için aşağıdaki seçenekler.",
 
